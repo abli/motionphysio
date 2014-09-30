@@ -1,3 +1,13 @@
-body {
-    background:#000;
-}
+// Plugins (folder: /plugins)
+@import "plugins/clearfix";
+@import "plugins/reset";
+
+// SCSS Modules (folder: /modules)
+
+// Partials (folder: /partials)
+@import "partials/colors";
+
+// Main CSS files
+@import "navigation";
+
+// Media Queries (folder: /media_queries)
