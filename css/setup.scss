@@ -3,17 +3,15 @@
 @import "plugins/reset";
 
 
-//Prefix Variable
-@import "plugins/prefixes";
-
-
 // SCSS Modules (folder: /modules)
 
 
 // Partials (folder: /partials)
 @import "partials/colors";
+@import "partials/prefixes";
 
 // Main CSS files
 @import "navigation";
 
 // Media Queries (folder: /media_queries)
+@import "media_queries/768";
