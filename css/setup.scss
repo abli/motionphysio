@@ -1,6 +1,8 @@
 // Plugins (folder: /plugins)
 @import "plugins/clearfix";
 @import "plugins/reset";
+@import "plugins/grid";
+
 
 
 //Prefix Variable
@@ -15,5 +17,6 @@
 
 // Main CSS files
 @import "navigation";
+@import "home";
 
 // Media Queries (folder: /media_queries)
