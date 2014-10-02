@@ -18,6 +18,6 @@
             <li><a href="#community">Community</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#" id="pull" class="clearfix"><p>Menu</p></a> 
+        <a href="#" id="pull" class="clearfix"><img src="img/logo.png" alt="logo" /></a> 
     </nav>
 </header>
