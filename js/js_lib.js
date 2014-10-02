@@ -1,9 +1,9 @@
 //Navigation Script
 $(function() {  
     var pull = $('#pull');  
-    menu = $('nav ul');  
-    menuHeight = menu.height();  
-		  
+    var menu = $('nav ul');  
+    var menuHeight = menu.height();  
+
     $(pull).on('click', function(e) {  
         e.preventDefault();  
         menu.slideToggle();  
@@ -22,16 +22,16 @@ $(function() {
 
 $(function() {
     var $root = $('html, body');
-		
+
     $('a').click(function() {
-    var href = $.attr(this, 'href');
-    	
-    $root.animate({
-    scrollTop: $(href).offset().top - 80
-    }, 800, function () {
-    window.location.hash = href;
-    });
+        var href = $.attr(this, 'href');
+
+        $root.animate({
+            scrollTop: $(href).offset().top - 50
+        }, 800, function () {
+            window.location.hash = href;
+        });
     
-    return false;
+        return false;
     });
 });
