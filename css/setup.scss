@@ -1,6 +1,8 @@
 // Plugins (folder: /plugins)
 @import "plugins/clearfix";
 @import "plugins/reset";
+@import "plugins/grid";
+
 
 
 // SCSS Modules (folder: /modules)
@@ -12,6 +14,7 @@
 
 // Main CSS files
 @import "navigation";
+@import "home";
 
 // Media Queries (folder: /media_queries)
 @import "media_queries/768";
