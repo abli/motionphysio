@@ -9,20 +9,24 @@ header {
     top: 0;
     z-index:99999;
 
+    #logo {
+        position:absolute;
+    }
+
     img {
         display:block;
         float:left;
         width:150px;
         background:#000;
         margin:12px 0 0 20px;
-
     }
 
     nav {
-        width:443px;
+        width:100%;
         margin-left:auto;
         margin-right:auto;
         padding:0;
+        text-align:center;
 
     li {
         margin:0;
@@ -30,7 +34,7 @@ header {
     }
 
         ul {
-            float:left;
+            display:inline-block;
 
             li:first-child {
                 margin-left:0;
