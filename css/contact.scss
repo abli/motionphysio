@@ -1,0 +1,23 @@
+input {
+    width:100%;
+    height:40px;
+    text-indent:10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width:100%;
+    height:150px;
+    max-width:100%;
+    box-sizing: border-box;
+    text-indent:10px;
+}
+
+#submit {
+    height:50px;
+    width:30%;
+    background:white;
+    margin-bottom:100px;
+    color:black;
+    text-indent:0;
+}

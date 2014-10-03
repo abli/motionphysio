@@ -13,10 +13,10 @@
     <nav>
         <ul class="clearfix">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>	
             <li><a href="#products">Products</a></li>
-            <li><a href="#community">Community</a></li>
+            <li><a href="#about">About</a></li> 
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#community">Community</a></li>
         </ul>
         <a href="#" id="pull" class="clearfix"><img src="img/logo.png" alt="logo" /></a> 
     </nav>
