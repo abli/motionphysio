@@ -11,10 +11,13 @@
 // Partials (folder: /partials)
 @import "partials/colors";
 @import "partials/prefixes";
+@import "partials/seperator";
 
 // Main CSS files
+@import "style";
 @import "navigation";
 @import "home";
+@import "products";
 @import "contact";
 
 // Media Queries (folder: /media_queries)

@@ -1,18 +1,110 @@
 
-#page-title {
-    font-family: Verdana;
-    font-size: 135%;
-}
-
-#lorem {
-    text-align: left;
-    width: 750px;
-}
-
 .content {
     background: #fff;
-    padding: 10px;
+    padding-top: 40px;
+    text-align:center;
 }
 
 #image {
+    width:280px;
+    padding-top: 40px;
+}
+
+.sep {
+    position:relative;
+    width:125px;
+    height:2px;
+    background:#000;
+    margin:0 auto;
+}
+
+.longsep {
+    position:relative;
+    width:100%;
+    height:1px;
+    background:#dadada;
+    margin:0 auto;
+}
+
+span {
+
+}
+
+span.price {
+    font-size:20px;
+    font-weight:800;
+    margin-bottom:20px;
+
+}
+
+
+.content .box {
+    border:1px solid #dadada;
+    width:320px;
+}
+
+.content .box h3 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.content .box h4 {
+    font-size:14px;
+    color:#3D3D3D;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+}
+
+.content .box ul {
+    margin-top:40px;
+}
+
+.content .box li {
+    width:50%;
+    float:left;
+    height:60px;
+}
+
+
+.content .box li.shop {
+    background:#047dcf url("../img/basket.png") center center no-repeat;
+    transition: background 400ms ease-in-out;
+}
+
+.content .box li.shop:hover{
+    background-color:#014E83;
+    cursor:pointer;
+}
+
+.content .box li.info {
+    background: url("../img/info.png") center center no-repeat;
+    border:1px solid #dadada;
+    cursor:pointer;
+}   
+
+
+.content button{
+    border: 1px solid #000;
+    background: none;
+    height: 50px;
+    width: 190px;
+    margin-top: 20px;
+    text-transform:uppercase;
+}
+
+.content h5{
+    padding: 10px 0 10px 0;
+}
+
+.content h6{
+    color:#3D3D3D;
+    text-transform:uppercase;
+    font-size:11px;
+    margin-bottom:10px;
+}
+
+span.priceacc{
+    margin-bottom:10px;
 }
