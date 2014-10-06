@@ -1,0 +1,30 @@
+.smallsep {
+    position:relative;
+    width:75px;
+    height:2px;
+    background:#000;
+    margin:0 auto;
+}
+
+
+.mediumsep {
+    position:relative;
+    width:125px;
+    height:2px;
+    background:#000;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.longsep {
+    position:relative;
+    width:100%;
+    height:1px;
+    background:#dadada;
+    margin:0 auto;
+}
+
+.f-left {
+    float:left;
+    margin:none
+}

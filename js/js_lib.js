@@ -27,11 +27,24 @@ $(function() {
         var href = $.attr(this, 'href');
 
         $root.animate({
-            scrollTop: $(href).offset().top - 50
+            scrollTop: $(href).offset().top - 80
         }, 800, function () {
             window.location.hash = href;
         });
     
         return false;
     });
+});
+
+// navigation color switch on scroll
+
+var t = $("#home-text").offset().top;
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > t) {   
+        $('header').css({"background-color":"#075c91"});
+    }
+    else {   
+        $('header').removeAttr('style');
+    }
 });
