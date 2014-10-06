@@ -9,8 +9,6 @@
     <div id="scroll"><a href="#products"><img src="img/scroll.png" alt="scroll" /></a></div>
 </section>
 
-<div class="seperator"></div>
-
 <section id="products">
     <div class="grid grid-pad">
         <div class="col-1-1">
@@ -168,13 +166,16 @@
     </div>
 </div>
 </section>
-
-<div class="seperator"></div>
-
 <section id="about">
-    <h1>About Motion Physio</h1>
-    <div class="mediumsep"></div>
-    <div id="undertekst"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, quam impedit enim odit laboriosam ducimus.</p></div>
+  <div class="content">
+    <h1>ABOUT</h1>
+                <div class="mediumsep"></div>
+                    <p id="undertekst">
+                      Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
+                      nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
+                      vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
+                    </p></div>
+                    </div>
     <div class="longsep"></div>
 
     <div class="grid grid-pad">
