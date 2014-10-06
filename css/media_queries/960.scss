@@ -29,7 +29,7 @@ header {
             li {
                 width:100%;
                 position:relative;
-                background-color:white;
+                background-color:$blue;
                 border-bottom:1px solid #dadada; 
             }
 
@@ -40,14 +40,13 @@ header {
 
                 &#pull {
                     display: block;  
-                    background-color:white;  
+                    background-color:$blue;  
                     width: 100%;
                     height:80px;  
                     position: relative;     
                     text-decoration:none;
                     color:black;
                     float:right;
-                    border-bottom:3px solid black;
 
                     p {
                         line-height:80px;
