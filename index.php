@@ -16,33 +16,59 @@
         <div class="col-1-1">
             <div class="content">
                 <h1>Products</h1>
-                    <p id="lorem">Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
-                                  nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
-                                  vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.</p>
-                    <h2>Experience map</h2>
-                    <img id="image" alt="placeholder" src="http://placehold.it/920x400">
+                <div class="mediumsep"></div>
+                    <p id="undertekst">
+                      Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at
+                      nunc. Quameuismod sem, semper ut potenti pellentesque quisque. In eget sapien sed, sit duis
+                      vestibulum ultricies, placerat morbi amet vel, nullam in in lorem vel.
+                    </p>
             </div>
         </div>
     </div>
 
     <div class="grid grid-pad">
-        <h2>Listed products</h2>
+        <h2><span class="object">01</span><span class="break">/</span>products</h2>
+        <div class="longsep"></div>
         <div class="col-1-3">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/320x200">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iusto hic magni architecto, aliquid mollitia repellendus atque aut dolore, officiis voluptas, nam ipsa, veritatis quisquam laborum! Unde ipsum facere, cumque.</p>
+               <div class="box">
+               <img id="image" alt="placeholder" src="img/product.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
            </div>
         </div>
         <div class="col-1-3">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/320x200">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iusto hic magni architecto, aliquid mollitia repellendus atque aut dolore, officiis voluptas, nam ipsa, veritatis quisquam laborum! Unde ipsum facere, cumque.</p>
+               <div class="box">
+               <img id="image" alt="placeholder" src="img/product.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
            </div>
         </div>
         <div class="col-1-3">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/320x200">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iusto hic magni architecto, aliquid mollitia repellendus atque aut dolore, officiis voluptas, nam ipsa, veritatis quisquam laborum! Unde ipsum facere, cumque.</p>
+               <div class="box">
+               <img id="image" alt="placeholder" src="img/product.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
            </div>
         </div>
     </div>
@@ -50,23 +76,97 @@
      <div class="grid grid-pad">
         <div class="col-1-3">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/320x200">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iusto hic magni architecto, aliquid mollitia repellendus atque aut dolore, officiis voluptas, nam ipsa, veritatis quisquam laborum! Unde ipsum facere, cumque.</p>
+               <div class="box">
+               <img id="image" alt="placeholder" src="img/product.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
            </div>
         </div>
         <div class="col-1-3">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/320x200">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iusto hic magni architecto, aliquid mollitia repellendus atque aut dolore, officiis voluptas, nam ipsa, veritatis quisquam laborum! Unde ipsum facere, cumque.</p>
+               <div class="box">
+               <img id="image" alt="placeholder" src="img/product.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
            </div>
         </div>
         <div class="col-1-3">
            <div class="content">
-               <img id="image" alt="placeholder" src="http://placehold.it/320x200">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut iusto hic magni architecto, aliquid mollitia repellendus atque aut dolore, officiis voluptas, nam ipsa, veritatis quisquam laborum! Unde ipsum facere, cumque.</p>
+              <div class="box">
+               <img id="image" alt="placeholder" src="img/product.jpg">
+               <h3>Raspberry Pi med SD kort </h3>
+               <h4>Antal Enheder 3</h4>
+               <span class="price">$200.00</span>
+                    <ul>
+                      <li class="shop"></li>
+                      <li class="info"></li>
+                    </ul>
+               </div>
            </div>
         </div>
     </div>
+
+    <div class="grid grid-pad">
+     <h2><span class="object">02</span><span class="break">/</span>ACCESSORIES</h2>
+        <div class="longsep"></div>
+    <div class="col-1-5">
+       <div class="content">
+           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <h5>Raspberry Pi med SD kort </h5>
+           <h6>antal enheder: 1</h6>
+           <span class="priceacc">$200.00</span>
+           <button>Add to basket</button>
+       </div>
+    </div>
+    <div class="col-1-5">
+       <div class="content">
+           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <h5>Raspberry Pi med SD kort </h5>
+           <h6>antal enheder: 1</h6>
+           <span class="priceacc">$200.00</span>
+           <button>Add to basket</button>
+       </div>
+    </div>
+    <div class="col-1-5">
+       <div class="content">
+           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <h5>Raspberry Pi med SD kort </h5>
+           <h6>antal enheder: 1</h6>
+           <span class="priceacc">$200.00</span>
+           <button>Add to basket</button>
+       </div>
+    </div>
+    <div class="col-1-5">
+       <div class="content">
+           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <h5>Raspberry Pi med SD kort </h5>
+           <h6>antal enheder: 1</h6>
+           <span class="priceacc">$200.00</span>
+           <button>Add to basket</button>
+       </div>
+    </div>
+    <div class="col-1-5">
+       <div class="content">
+           <img width="90%" height="90%" src="img/keyboard.jpg" alt="">
+           <h5>Raspberry Pi med SD kort </h5>
+           <h6>antal enheder: 1</h6>
+           <span class="priceacc">$200.00</span>
+           <button>Add to basket</button>
+       </div>
+    </div>
+</div>
 </section>
 
 <div class="seperator"></div>
