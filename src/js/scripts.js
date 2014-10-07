@@ -1,21 +1,21 @@
 //Navigation Script
-$(function() {  
-    var pull = $('#pull');  
-    var menu = $('nav ul');  
-    var menuHeight = menu.height();  
+$(function() {
+    var pull = $('#pull');
+    var menu = $('nav ul');
 
-    $(pull).on('click', function(e) {  
-        e.preventDefault();  
-        menu.slideToggle();  
-        });  
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
     });
 
-    $(window).resize(function(){  
-    var w = $(window).width();  
+    var w;
+    $(window).resize(function(){
+        w = $(window).width();
 
-    if(w > 320 && menu.is(':hidden')) {  
-        menu.removeAttr('style');  
-    }  
+        if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
 });
 
 //Smooth Scroll.
@@ -38,13 +38,13 @@ $(function() {
 
 // navigation color switch on scroll
 
-var t = $("#home-text").offset().top;
+var t = $('#home-text').offset().top;
 
 $(document).scroll(function(){
-    if($(this).scrollTop() > t) {   
-        $('header').css({"background-color":"#075c91"});
+    if($(this).scrollTop() > t) {
+        $('header').css({'background-color': '#075c91'});
     }
-    else {   
+    else {
         $('header').removeAttr('style');
     }
 });
