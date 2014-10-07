@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
-    grunt.registerTask('default', ['build', 'concurrent']);
+    grunt.registerTask('default', ['build']);
+    grunt.registerTask('dev', ['build', 'concurrent']);
 
     grunt.registerTask('build', ['clean', 'copy', 'styles', 'scripts']);
 
