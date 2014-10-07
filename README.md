@@ -2,7 +2,8 @@
 
 Website for motionphysio
 
-[![Dependencies](https://david-dm.org/isenhard/motionphysio.png)](https://david-dm.org/isenhard/motionphysio)
+[![Dependency Status](https://david-dm.org/isenhard/motionphysio.svg)](https://david-dm.org/isenhard/motionphysio)
+[![devDependency Status](https://david-dm.org/isenhard/motionphysio/dev-status.svg)](https://david-dm.org/isenhard/motionphysio#info=devDependencies)
 
 ## Documentation
 
@@ -19,3 +20,5 @@ Build using:
 Or you can run a php server while watching for changes:
 
     grunt dev
+
+Server running at: http://localhost:3005/
